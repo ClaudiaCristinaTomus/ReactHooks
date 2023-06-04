@@ -6,7 +6,7 @@ import Button from '../../UI/Button/Button';
 const Hero = () => {
   return (
     <div className={classes.container}>
-        <img src={background}></img>
+        <img className={classes.img_background} src={background}></img>
         <div className={classes.hero}>
             <div className={classes.hero__content}>
                 <h1 className={classes.hero__content__title}>I am waiting</h1>
