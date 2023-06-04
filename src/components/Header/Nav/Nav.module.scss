@@ -8,7 +8,7 @@
     ul{
         height: 100%;
         display:flex;
-        margin-left: $spacing-lg;
+        margin-right: $spacing-lg;
         li{
             height: 100%;
             &:not(:last-child){
@@ -21,7 +21,7 @@
                 font-size: 1.1rem;
                 letter-spacing: $letterSpacing;
                 text-decoration: none;
-                color:$white;
+                color:$dark;
                 position: relative;
 
                 &::after{
@@ -41,7 +41,7 @@
                     opacity:1;
                 }
                 &:hover{
-                    color:$white;
+                    color:$dark2;
                 }
             }
         }
@@ -69,10 +69,10 @@
             }
             a{
                 text-decoration: none;
-                color:$white;
+                color:$black;
 
                 &:hover{
-                    color:$white;
+                    color:$dark2;
                 }
             }
         }
